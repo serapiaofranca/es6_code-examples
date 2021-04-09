@@ -16,11 +16,11 @@ const authors = JSON.stringify([
 const requestListener = function (req, res) {
     res.setHeader("Content-Type", "application/json");
     switch (req.url) {
-        case "/books":
+        case "/books.json":
             res.writeHead(200);
             res.end(books);
             break
-        case "/authors":
+        case "/authors.json":
             res.writeHead(200);
             res.end(authors);
             break
