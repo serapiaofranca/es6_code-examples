@@ -1,0 +1,29 @@
+{
+  "name": "javascript_basico",
+  "version": "1.0.0",
+  "description": "**Curso DIO - JavaSript Basico",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapiaofranca/es6_code-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serapiaofranca/es6_code-examples/issues"
+  },
+  "homepage": "https://github.com/serapiaofranca/es6_code-examples#readme"
+}
