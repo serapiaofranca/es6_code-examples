@@ -1,3 +1,4 @@
+// server usado de exemplo para retornar dados json - executar node routes.js
 const http = require("http");
 
 const host = 'localhost';

@@ -1,4 +1,6 @@
 // codigo assincrono de maneira sequencial, como se fosse sincrono
+// server usado de exemplo esta na pasta server - executar node routes.js
+
 const fetch = require("node-fetch");
 
 const asyncTimer = () =>

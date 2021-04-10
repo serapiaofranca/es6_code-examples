@@ -20,8 +20,8 @@ function sum2(...args){
 console.log(sum2(2, 3, 4, 10, 14));
 
 // se quiser usar alguns dos argumentos
-const sum3 = (a, b, ...oders) => {
-    console.log(a, b, oders);
+const sum3 = (a, b, ...others) => {
+    console.log(a, b, others);
 };
 
 sum3(2, 3, 4, 10, 14);

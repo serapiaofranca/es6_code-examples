@@ -5,7 +5,7 @@ Você precisa usar um módulo externo para isso, como busca de nó .
 
 Instale-o no aplicativo Node como este
 
-guest@usre$npm i node-fetch --save
+guest@user$npm i node-fetch --save
 
  em seguida, coloque a linha abaixo na parte superior dos arquivos em que você está usando a API de busca:
 
@@ -14,6 +14,7 @@ const fetch = require("node-fetch");
 */
 const fetch = require("node-fetch");
 
+// server usado de exemplo esta na pasta server - executar node routes.js
 fetch('http://localhost:8080/books.json')
     .then(responseStream => {
         //if(responseStream === 200){
